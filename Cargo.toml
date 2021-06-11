@@ -3,6 +3,11 @@ name = "discriminant_hash_derive"
 version = "0.1.0"
 authors = ["Mihir Luthra <luthramihir708@gmail.com>"]
 edition = "2018"
+description = """
+Derive macro to implement Hash trait based on enum's discriminants only and ignore variant's fields
+"""
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/MihirLuthra/discriminant_hash_derive"
 
 [lib]
 proc-macro = true
